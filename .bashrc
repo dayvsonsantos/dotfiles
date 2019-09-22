@@ -14,3 +14,8 @@ alias gh="c; git log --all --graph --abbrev-commit --decorate --format=format:'%
 alias gd='c; git diff'
 alias tasks='c; git grep -EI "TODO|FIXME|BUG"'
 alias fuck='eval $(thefuck $(fc -ln -1)); history -r'
+
+# function to compiler a file .cpp
+function magia(){
+    g++ -std=c++11 "$1".cpp -o "$1"
+}
