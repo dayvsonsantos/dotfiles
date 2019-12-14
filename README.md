@@ -19,10 +19,10 @@ docker run -it --privileged=true -v PATH_TO_SOURCE_CODE:/app pc-setup /bin/bash
 ## Install
 
 ```
-git clone https://github.com/rodrigocmoraes/pc-setup.git
-cd pc-setup
+git clone https://github.com/dayvsonsantos/dotfiles.git
+cd dotfiles
 sudo chmod +x install.sh
-sudo ./install.sh
+sudo sh install.sh
 source ~/.bashrc
 ```
 
